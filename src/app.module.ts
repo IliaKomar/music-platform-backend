@@ -10,7 +10,7 @@ import { TrackModule } from './track/track.module';
       rootPath: path.resolve(__dirname, 'static'),
     }),
     MongooseModule.forRoot(
-      'mongodb+srv://Ilia:111111111@cluster0.gbvsl.mongodb.net/music-platform-back?retryWrites=true&w=majority',
+      'mongodb+srv://Ilia:11111@cluster0.i3ggq.mongodb.net/music?retryWrites=true&w=majority',
     ),
     TrackModule,
     FileModule,
